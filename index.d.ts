@@ -9,6 +9,7 @@ export interface Options {
     objectCost?: number;
     listFactor?: number;
     introspectionListFactor?: number;
+    
 }
 
 export function createComplexityLimitRule(
